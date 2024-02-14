@@ -33,7 +33,7 @@ console.log(x(3, 9));
 const average = function (...numbers) {
   let sum = 0;
 
-  for (i = 0; i < numbers.length; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
   }
 
